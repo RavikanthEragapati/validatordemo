@@ -1,0 +1,50 @@
+{
+	"_id": {
+        "$integer": {
+            "min": 1000000000,
+            "max": 9999999999
+        }
+    },
+	"toUniqueAuthUserID" : "$guid",
+	"expirationDate": {
+        "$date": {
+            "min": "2021-11-08T23:59:59.999Z",
+            "max": "2022-12-07T23:59:59.999Z"
+        }
+    },
+	"createdBy" : "SYSTEM",
+	"createdDate" : {
+		"$date" : "$now"
+	},
+	"lastModifiedBy" : "SYSTEM",
+	"lastModifiedDate" : {
+		"$date" : "$now"
+	},
+	"subject" : "No 24 hour wait on your authorization request",
+	"body" : "We've made the activation process even easier for your vehicle! Simply tap 'Authorize Vehicle' in My Vehicles or Vehicle Controls. Then accept the in-vehicle notification on the touch screen to immediately take advantage of remote features on Ravi through Lincoln Way.",
+	"formattedBody" : "",
+	"isRead" : true,
+	"isDeleted" : true,
+	"isHighlighted" : false,
+	"vin" : "3LN6L2J92GR625936",
+	"notificationMessageType" : "EXTERNAL_NOTIFICATION_REQUEST",
+	"publisherType" : "NONE",
+	"publisher" : null,
+	"audienceGroupID" : null,
+	"externalMessageType" : 0,
+	"metadata" : "{accentureSDN:true,messageType:\"NTF_SSA_MSG\",msgId:329216602}",
+	"notificationPriority" : "LOW",
+	"notificationPriorityCode" : 0,
+	"contentType" : "TEXT",
+	"appID" : null,
+	"appGroupIDs" : [
+		"LincolnAppGroup"
+	],
+	"tag" : null,
+	"isActionRequired" : false,
+	"actionType" : "NONE",
+	"actionTakenBy" : null,
+	"actionTakenDate" : null,
+	"providerType" : null,
+	"providerID" : null
+}

@@ -1,0 +1,50 @@
+{
+	"_id": {
+        "$integer": {
+            "min": 1000000000,
+            "max": 9999999999
+        }
+    },
+	"toUniqueAuthUserID" : "$guid",
+	"expirationDate": {
+        "$date": {
+            "min": "2021-11-08T23:59:59.999Z",
+            "max": "2022-12-07T23:59:59.999Z"
+        }
+    },
+	"createdBy" : "SYSTEM",
+	"createdDate" : {
+		"$date" : "$now"
+	},
+	"lastModifiedBy" : "SYSTEM",
+	"lastModifiedDate" : {
+		"$date" : "$now"
+	},
+	"subject" : "An update for phone battery drain issues is here",
+	"body" : "We’re aware that some of our members using the FordPass™ App are experiencing battery drain issues on their iOS devices. So, together with Apple® we’ve identified a software issue that, when updated, should help improve battery life.Thanks for your patience. You can feel good knowing all of your favorite features like complimentary remote start* and fuel level tracking will be available when you need them.** Plus, there are lots of new and exciting features coming in the next year.To take advantage of the update, make sure your device has the latest versions of iOS and the FordPass App.Our apologies for any inconvenience this may have caused.*Automatic transmission only. **FordPass Connect (optional on select vehicles), the Ford Pass App., and complimentary Connected Service are required for remote features (see FordPass Terms for details). Connected service and features depend on compatible AT&amp;T network availability. Evolving technology/cellular networks/vehicle capability may limit functionality and prevent operation of connected features. Connected service excludes Wi-Fi hotspot.Apple is a trademark of Apple Inc., registered in the U.S. and other countries.iOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.",
+	"formattedBody" : "<!DOCTYPE html><header><style>html {font-family: Arial;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}h1 {max-width: 100%;font-size: 250% !important;font-family: Arial;margin: 0;padding: 25px;}h3{font-size: 75% !important;margin:0;padding-left: 30px;}p{font-size: 150% !important;margin:0;padding-left: 30px;}li{font-size: 150% !important;margin:0;padding-left: 30px;}img {border: 0;max-width: 100%;max-height: 100%;padding:0px;}#blueContainer{margin: 0;padding-bottom: 0px;overflow: visible; background-color: #0276b3;width: 100%;height: 5%;}#serviceDueTitle{background-color: blue;overflow: hidden;width: 100%;height: 30pt;margin-top: 10px;line-height:15px;}#serviceDueContent{padding-top:100px;padding-bottom:125px;}#serviceAlertTitle{height: 8%;width: 95%;background-color: blue);padding-top: 25px;padding-right: 0px;padding-bottom: 0px;padding-left: 30px;margin-bottom: 0;}h2{ color: rgb(51,51,51);padding: 25px;}h3{ color: rgb(51,51,51);padding: 25px;}h5{ color: rgb(51,51,51);padding: 25px;}p{ color: rgb(51,51,51);}button{ background-color: #0276b3;color: white;height: 100px;width: 850px;text-align: center;font-size: 50pt;border-radius: 15px;border: none;}body{margin: 0px;padding: 0px;font-size: 20pt;}.fordpass{border-radius: 8px;background-clip: padding-box;display: inline-block;margin-bottom: 20px;padding: 30px 35px; text-align:center;background-color: #2d96cd;border: none;color: #fff;text-decoration: none;font-size: 30pt;width: 600pt;height:40pt;}</style><script src=\"https://assets.adobedtm.com/launch-EN8fa1314f8c344e5eb78699bd6fdaa212-development.min.js\" async></script><script>function buttonMetrics(){var clickedURL=this.getAttribute(\"href\");console.log(\"clickedURL \"+clickedURL);var msgView=\"message center\";digitaldata={page:{client:\"ford\"},onclick:{onclick:msgView+\":a:click\",onclickLinkName:\"fp:\"+msgView+\":cta\",url:clickedURL}};var event=new CustomEvent(\"bb-trade-in-start\");document.querySelector(\"body\").dispatchEvent(event),_satellite.notify('custom event \"bb-trade-in-start\" fired on body',1)}var buttons=document.querySelectorAll(\"a\"),buttonArray=Array.from(buttons);buttonArray.forEach(a=>a.addEventListener(\"click\",buttonMetrics));</script></header><div><title>An update for phone battery drain issues is here</title><br><div id=\"serviceDueContent\"><img src=\"https://www.fordpass.com/content/dam/ici/generated-images/messaging/ford_pass_2_0/us/en/ArtOption_FP.jpg\"></div><body><div style=\"padding-left:30px;\"><p><p>We’re aware that some of our members using the FordPass<sup>™</sup> App are experiencing battery drain issues on their iOS devices. So, together with Apple<sup>® </sup>we’ve identified a software issue that, when updated, should help improve battery life.<br><br>Thanks for your patience. You can feel good knowing all of your favorite features like complimentary remote start<sup>*</sup> and fuel level tracking will be available when you need them.<sup>**</sup> Plus, there are lots of new and exciting features coming in the next year.<br><br>To take advantage of the update, make sure your device has the latest versions of iOS and the FordPass App.<br><br>Our apologies for any inconvenience this may have caused.</p><br><h3><sup>*</sup>Automatic transmission only. <sup>**</sup>FordPass Connect (optional on select vehicles), the Ford Pass App., and complimentary Connected Service are required for remote features (see FordPass Terms for details). Connected service and features depend on compatible AT&T network availability. Evolving technology/cellular networks/vehicle capability may limit functionality and prevent operation of connected features. Connected service excludes Wi-Fi hotspot.<br><br>Apple is a trademark of Apple Inc., registered in the U.S. and other countries.<br><br>iOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.</h3><br></p><div style=\"text-align: center\"><a href=\"fordapp://move\" class=\"fordpass\">OK</a><br><br></b></div></div></body></html>",
+	"isRead" : false,
+	"isDeleted" : true,
+	"isHighlighted" : true,
+	"vin" : "",
+	"notificationMessageType" : "EXTERNAL_NOTIFICATION_REQUEST",
+	"publisherType" : "NONE",
+	"publisher" : null,
+	"audienceGroupID" : null,
+	"externalMessageType" : 20001,
+	"metadata" : "{\"DeliveryId\":\"-906299066|USA\",\"PegaInteractionId\":\"\"}",
+	"notificationPriority" : "NORMAL",
+	"notificationPriorityCode" : 1,
+	"contentType" : "HTML",
+	"appID" : null,
+	"appGroupIDs" : [
+		"NAFordAppGroup"
+	],
+	"tag" : null,
+	"isActionRequired" : false,
+	"actionType" : "NONE",
+	"actionTakenBy" : null,
+	"actionTakenDate" : null,
+	"providerType" : null,
+	"providerID" : null
+}

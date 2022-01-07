@@ -1,0 +1,53 @@
+{
+	"_id": {
+        "$integer": {
+            "min": 1000000000,
+            "max": 9999999999
+        }
+    },
+	"toUniqueAuthUserID" : "$guid",
+	"expirationDate": {
+        "$date": {
+            "min": "2021-11-08T23:59:59.999Z",
+            "max": "2022-12-07T23:59:59.999Z"
+        }
+    },
+	"createdBy" : "SYSTEM",
+	"createdDate" : {
+		"$date" : "$now"
+	},
+	"lastModifiedBy" : "SYSTEM",
+	"lastModifiedDate" : {
+		"$date" : "$now"
+	},
+	"subject" : "Welcome to FordPass",
+	"body" : "Thank you for registering with the FordPass App and joining FordPass Rewards. You can now log in using your new account.",
+	"formattedBody" : "",
+	"isRead" : false,
+	"isDeleted" : true,
+	"isHighlighted" : false,
+	"vin" : null,
+	"notificationMessageType" : "WELCOME_MESSAGE",
+	"publisherType" : "NONE",
+	"publisher" : null,
+	"audienceGroupID" : null,
+	"externalMessageType" : 0,
+	"metadata" : "",
+	"notificationPriority" : "NORMAL",
+	"notificationPriorityCode" : 1,
+	"contentType" : "TEXT",
+	"appID" : null,
+	"appGroupIDs" : [
+		"LincolnAppGroup"
+	],
+	"tag" : "acceptance-test2465974",
+	"isActionRequired" : false,
+	"actionType" : "NONE",
+	"actionTakenBy" : null,
+	"actionTakenDate" : null,
+	"providerType" : "something",
+	"providerID" : "something",
+	"templateName" : "FordPass-NA-M20",
+	"communicationMessageType" : "INBOX",
+	"providerAppId" : "A4E3C521-41C0-4B91-9B0D-6D11C6325A2D"
+}

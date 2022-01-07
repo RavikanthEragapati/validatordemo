@@ -1,0 +1,50 @@
+{
+	"_id": {
+        "$integer": {
+            "min": 1000000000,
+            "max": 9999999999
+        }
+    },
+	"toUniqueAuthUserID" : "$guid",
+	"expirationDate": {
+        "$date": {
+            "min": "2021-11-08T23:59:59.999Z",
+            "max": "2022-12-07T23:59:59.999Z"
+        }
+    },
+	"createdBy" : "SYSTEM",
+	"createdDate" : {
+		"$date" : "$now"
+	},
+	"lastModifiedBy" : "SYSTEM",
+	"lastModifiedDate" : {
+		"$date" : "$now"
+	},
+	"subject" : "Get deliveries to your vehicle with Key by Amazon.",
+	"body" : "Ever wonder if your packages are safe? As an Amazon Prime member, you can get packages securely delivered to your Lincoln vehicle at no extra cost. Exclusively for those who appreciate the luxury of convenience.In-car delivery is available only to Amazon Prime Members in several US cities and surrounding areas. Need to activate your car for in-car delivery. Amazon Key app enables in-car deliveries by linking your Amazon Key app with your Lincoln Way account.",
+	"formattedBody" : "<!DOCTYPE html><header><style>html {font-family: Arial;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}h1 {max-width: 100%;font-size: 250%;font-family: Arial;margin: 0;padding: 25;}h3{font-size: 75%;margin:0;padding-left: 30px;}p{font-size: 150%;margin:0;padding-left: 30px;}li{font-size: 150%;margin:0;padding-left: 30px;}img {border: 0;max-width: 100%;max-height: 100%;padding:0px;}#blueContainer{margin: 0;padding-bottom: 0;overflow: visible; background-color: #cd4b01;width: 100%;height: 5%;}#serviceDueTitle{background-color: blue;overflow: hidden;width: 100%;height: 30pt;margin-top: 10px;line-height:15px;}#serviceDueContent{padding-top:100px;padding-bottom:125px;}#serviceAlertTitle{height: 8%;width: 95%;background-color: blue);padding-top: 25px;padding-right: 0px;padding-bottom: 0px;padding-left: 30px;margin-bottom: 0;}h2{ color: rgb(51,51,51);padding: 25px;}h3{ color: rgb(51,51,51);padding: 25px;}h5{ color: rgb(51,51,51);padding: 25px;}p{ color: rgb(51,51,51);}button{ background-color: #cd4b01;color: white;height: 100px;width: 850px;text-align: center;font-size: 50pt;border-radius: 15px;border: none;}body{margin: 0px;padding: 0px;font-size: 20pt;}.lincoln{border-radius: 8px;background-clip: padding-box;display: inline-block;margin-bottom: 20px;padding: 15px 35px; text-align:center;background-color: #cd4b01;border: none;color: #fff;text-decoration: none;font-size: 40pt;width: 600pt;}</style><script src=\"http://assets.adobedtm.com/launch-EN8fa1314f8c344e5eb78699bd6fdaa212-development.min.js\" async></script><script>function buttonMetrics(){var clickedURL=this.getAttribute(\"href\");console.log(\"clickedURL \"+clickedURL);var msgView=\"message center\";digitaldata={page:{client:\"ford\"},onclick:{onclick:msgView+\":a:click\",onclickLinkName:\"fp:\"+msgView+\":cta\",url:clickedURL}};var event=new CustomEvent(\"bb-trade-in-start\");document.querySelector(\"body\").dispatchEvent(event),_satellite.notify('custom event \"bb-trade-in-start\" fired on body',1)}var buttons=document.querySelectorAll(\"a\"),buttonArray=Array.from(buttons);buttonArray.forEach(a=>a.addEventListener(\"click\",buttonMetrics));</script></header><div><title>Get deliveries to your vehicle with Key by Amazon.</title><br><div id=\"serviceDueContent\"><img src=\"https://www.campaign.lincoln.com/content/dam/ici/generated-images/messaging/lincolnway_2_0/us/en/LW_ExtendedOffer_AmazonKey.jpg\"></div><body><div style=\"padding-left:30px;\"><p><p>Ever wonder if your packages are safe? As an Amazon Prime member, you can get packages securely delivered to your Lincoln vehicle at no extra cost. Exclusively for those who appreciate the luxury of convenience.</p><br><h3>In-car delivery is available only to Amazon Prime Members in several US cities and surrounding areas. Need to activate your car for in-car delivery. Amazon Key app enables in-car deliveries by linking your Amazon Key app with your Lincoln Way account.</h3><br></p><div style=\"text-align: center\"><a href=\"https://www.amazon.com/b?&node=17051031011&ref=key_pola_lincoln_lw_app\" class=\"lincoln\">See How</a><br><br></b></div></div></body></html>",
+	"isRead" : true,
+	"isDeleted" : true,
+	"isHighlighted" : true,
+	"vin" : null,
+	"notificationMessageType" : "EXTERNAL_NOTIFICATION_REQUEST",
+	"publisherType" : "NONE",
+	"publisher" : null,
+	"audienceGroupID" : null,
+	"externalMessageType" : 20001,
+	"metadata" : "{\"DeliveryId\":\"272631270|USA\"}",
+	"notificationPriority" : "NORMAL",
+	"notificationPriorityCode" : 1,
+	"contentType" : "HTML",
+	"appID" : null,
+	"appGroupIDs" : [
+		"LincolnAppGroup"
+	],
+	"tag" : null,
+	"isActionRequired" : false,
+	"actionType" : "NONE",
+	"actionTakenBy" : null,
+	"actionTakenDate" : null,
+	"providerType" : null,
+	"providerID" : null
+}

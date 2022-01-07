@@ -1,0 +1,50 @@
+{
+	"_id": {
+        "$integer": {
+            "min": 1000000000,
+            "max": 9999999999
+        }
+    },
+	"toUniqueAuthUserID" : "$guid",
+	"expirationDate": {
+        "$date": {
+            "min": "2021-11-08T23:59:59.999Z",
+            "max": "2022-12-07T23:59:59.999Z"
+        }
+    },
+	"createdBy" : "SYSTEM",
+	"createdDate" : {
+		"$date" : "$now"
+	},
+	"lastModifiedBy" : "SYSTEM",
+	"lastModifiedDate" : {
+		"$date" : "$now"
+	},
+	"subject" : "Keep playing for chances to win tickets + Points!",
+	"body" : "Enter daily for your chance to score a pair of Lions tickets and other instant-win prizes, including a chance at 100,000 FordPass Rewards™ Points exclusively for FordPass Rewards members!NO PURCHASE NECESSARY. Legal residents of the 50 United States D.C. (excluding FL and NY) 18 years and older who are FordPass Rewards members. Ends 12/13/19. To play and for Official Rules, including odds, how to create a FordPass Rewards membership, and prize descriptions visit https://fordpass.promo.eprize.com/sweepstakes/. Void where prohibited.",
+    "formattedBody" : "<!DOCTYPE html><header><style>html {font-family: Arial;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}h1 {max-width: 100%;font-size: 250% !important;font-family: Arial;margin: 0;padding: 25;}h3{font-size: 75% !important;margin:0;padding-left: 30px;}p{font-size: 150% !important;margin:0;padding-left: 30px;}li{font-size: 150% !important;margin:0;padding-left: 30px;}img {border: 0;max-width: 100%;max-height: 100%;padding:0px;}#blueContainer{margin: 0;padding-bottom: 0;overflow: visible; background-color: #0276b3;width: 100%;height: 5%;}#serviceDueTitle{background-color: blue;overflow: hidden;width: 100%;height: 30pt;margin-top: 10px;line-height:15px;}#serviceDueContent{padding-top:100px;padding-bottom:125px;}#serviceAlertTitle{height: 8%;width: 95%;background-color: blue);padding-top: 25px;padding-right: 0px;padding-bottom: 0px;padding-left: 30px;margin-bottom: 0;}h2{ color: rgb(51,51,51);padding: 25px;}h3{ color: rgb(51,51,51);padding: 25px;}h5{ color: rgb(51,51,51);padding: 25px;}p{ color: rgb(51,51,51);}button{ background-color: #0276b3;color: white;height: 100px;width: 850px;text-align: center;font-size: 50pt;border-radius: 15px;border: none;}body{margin: 0px;padding: 0px;font-size: 20pt;}.fordpass{border-radius: 8px;background-clip: padding-box;display: inline-block;margin-bottom: 20px;padding: 15px 35px; text-align:center;background-color: #2d96cd;border: none;color: #fff;text-decoration: none;font-size: 30pt;width: 600pt;height:50pt;}</style><script src=\"http://assets.adobedtm.com/launch-EN8fa1314f8c344e5eb78699bd6fdaa212-development.min.js\" async></script><script>function buttonMetrics(){var clickedURL=this.getAttribute(\"href\");console.log(\"clickedURL \"+clickedURL);var msgView=\"message center\";digitaldata={page:{client:\"ford\"},onclick:{onclick:msgView+\":a:click\",onclickLinkName:\"fp:\"+msgView+\":cta\",url:clickedURL}};var event=new CustomEvent(\"bb-trade-in-start\");document.querySelector(\"body\").dispatchEvent(event),_satellite.notify('custom event \"bb-trade-in-start\" fired on body',1)}var buttons=document.querySelectorAll(\"a\"),buttonArray=Array.from(buttons);buttonArray.forEach(a=>a.addEventListener(\"click\",buttonMetrics));</script></header><div><title>Keep playing for chances to win tickets + Points!</title><br><div id=\"serviceDueContent\"><img src=\"https://www.campaign.ford.com/content/dam/ici/generated-images/messaging/ford_pass_2_0/us/en/lions sweeps.jpg\"></div><body><div style=\"padding-left:30px;\"><p><p>Enter daily for your chance to score a pair of Lions tickets and other instant-win prizes, including a chance at 100,000 FordPass Rewards<sup>™</sup> Points exclusively for FordPass Rewards members!<u></u></p><br><h3>NO PURCHASE NECESSARY. Legal residents of the 50 United States D.C. (excluding FL and NY) 18 years and older who are FordPass Rewards members. Ends 12/13/19. To play and for <u>Official Rules</u>, including odds, how to create a FordPass Rewards membership, and prize descriptions visit <a href=\"https://fordpass.promo.eprize.com/sweepstakes/\">https://fordpass.promo.eprize.com/sweepstakes/</a>. Void where prohibited.</h3><br></p><div style=\"text-align: center\"><a href=\"https://fordpass.promo.eprize.com/sweepstakes/\" class=\"fordpass\">Play Now</a><br><br></b></div></div></body></html>",
+	"isRead" : false,
+	"isDeleted" : true,
+	"isHighlighted" : true,
+	"vin" : null,
+	"notificationMessageType" : "EXTERNAL_NOTIFICATION_REQUEST",
+	"publisherType" : "NONE",
+	"publisher" : null,
+	"audienceGroupID" : null,
+	"externalMessageType" : 20001,
+	"metadata" : "{\"DeliveryId\":\"303632136|USA\"}",
+	"notificationPriority" : "NORMAL",
+	"notificationPriorityCode" : 1,
+	"contentType" : "HTML",
+	"appID" : null,
+	"appGroupIDs" : [
+		"NAFordAppGroup"
+	],
+	"tag" : null,
+	"isActionRequired" : false,
+	"actionType" : "NONE",
+	"actionTakenBy" : null,
+	"actionTakenDate" : null,
+	"providerType" : null,
+	"providerID" : null
+}

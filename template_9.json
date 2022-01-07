@@ -1,0 +1,52 @@
+{
+	"_id": {
+        "$integer": {
+            "min": 1000000000,
+            "max": 9999999999
+        }
+    },
+	"toUniqueAuthUserID" : "$guid",
+	"expirationDate": {
+        "$date": {
+            "min": "2021-11-08T23:59:59.999Z",
+            "max": "2022-12-07T23:59:59.999Z"
+        }
+    },
+	"createdBy" : "SYSTEM",
+	"createdDate" : {
+		"$date" : "$now"
+	},
+	"lastModifiedBy" : "SYSTEM",
+	"lastModifiedDate" : {
+		"$date" : "$now"
+	},
+	"subject" : "WE CAN SEE YOU IN THESE NEW REWARDS",
+	"body" : "Ravi kanth, see what’s possible with our latest additions to the Lincoln Access Rewards™ Collection. Whether you’re a gourmet or an adventure-seeker, we have rewards that will expand your horizons. ",
+	"formattedBody" : "<!DOCTYPE html><header><style>@font-face{font-family:'lincolnProximaNovaRegular'; src:url('https://www.lincoln.com/cmslibs/etc/designs/common/skin/lincoln/fonts/ProximaNova/ProximaNova-Reg-webfont.woff') format('woff')}.lincolnProximaNovaRegular{  font-family:'lincolnProximaNovaRegular';line-height:1.0;}@font-face{font-family:'fontDefault';src:url('https://www.lincoln.com/cmslibs/etc/designs/common/skin/lincoln/fonts/ProximaNova/ProximaNova-Reg-webfont.woff') format('woff')}.fontDefault{font-family:'fontDefault';}.plain{line-height:1.0;}.fs28{vertical-align:middle;font-size:28px;padding-top:0px;padding-bottom:0px;height:28px;display:inline;}.fs32{vertical-align:middle;font-size:32px;padding-top:0px;padding-bottom:0px;height:32px;display:inline;}.fs36{vertical-align:middle;font-size:36px;padding-top:0px;padding-bottom:0px;height:36px;display:inline;}.fs40{vertical-align:middle;font-size:40px;padding-top:0px;padding-bottom:0px;height:40px;display:inline;}.fs42{vertical-align:middle;font-size:42px;padding-top:0px;padding-bottom:0px;height:42px;display:inline;}.fs48{vertical-align:middle;font-size:48px;padding-top:0px;padding-bottom:0px;height:48px;display:inline;}.fs72{vertical-align:middle;font-size:72px;padding-top:0px;padding-bottom:0px;height:72px;display:inline;}html {font-family: Arial;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}h1 {max-width: 100%;font-size: 250%;font-family: Arial;margin: 0;padding: 25px;}p{font-size: 150%;margin:0;padding-left: 30px;}li{font-size: 150%;margin:0;padding-left: 30px;margin-left:20pt;}img {border: 0;max-width: 100%;max-height: 100%;padding:0px;display: block;margin-left: auto;margin-right: auto;padding-top:30px;padding-bottom:30px;}#blueContainer{margin: 0;padding-bottom: 0;overflow: visible; background-color: #cd4b01;width: 100%;height: 5%;}#serviceDueTitle{background-color: blue;overflow: hidden;width: 100%;height: 30pt;margin-top: 10px;line-height:15px;}#serviceAlertTitle{height: 8%;width: 95%;background-color: blue);padding-top: 25px;padding-right: 0px;padding-bottom: 0px;padding-left: 30px;margin-bottom: 0;}h2{ color: rgb(51,51,51);padding: 25px;}h3{ color: rgb(51,51,51);padding: 10px;font-size: 75%;margin:0;padding-left: 30px;}h5{ color: rgb(51,51,51);padding: 25px;}p{ color: rgb(51,51,51);}button{ background-color: #cd4b01;color: white;height: 100px;width: 850px;text-align: center;font-size: 50pt;border-radius: 15px;border: none;}body{margin: 0px;padding: 0px;font-size: 20pt;}.lincoln{border-radius: 8px;background-clip: padding-box;display: inline-block;margin-bottom: 20px;padding: 20px 35px; text-align:center;background-color: #cd4b01;border: none;color: #fff;text-decoration: none;font-size: 40pt;width: 600pt;}</style><script src=\"https://assets.adobedtm.com/launch-EN8fa1314f8c344e5eb78699bd6fdaa212-development.min.js\" async></script><script>function buttonMetrics(){var clickedURL=this.getAttribute(\"href\");console.log(\"clickedURL \"+clickedURL);var msgView=\"message center\";digitaldata={page:{client:\"ford\"},onclick:{onclick:msgView+\":a:click\",onclickLinkName:\"fp:\"+msgView+\":cta\",url:clickedURL}};var event=new CustomEvent(\"bb-trade-in-start\");document.querySelector(\"body\").dispatchEvent(event),_satellite.notify('custom event \"bb-trade-in-start\" fired on body',1)}var buttons=document.querySelectorAll(\"a\"),buttonArray=Array.from(buttons);buttonArray.forEach(a=>a.addEventListener(\"click\",buttonMetrics));</script></header><div><title>WE CAN SEE YOU IN THESE NEW REWARDS</title><br><img src=\"https://www.fordpass.com/content/dam/ici/generated-images/messaging/lincolnway_3_0/us/en/LAR_8.11 Aug_V2_1536x2580.jpg\"><body><span class=\"plain\"><div><p>Ravi kanth, see what’s possible with our latest additions to the Lincoln Access Rewards<sup>™</sup> Collection. Whether you’re a gourmet or an adventure-seeker, we have rewards that will expand your horizons.</p><p>&nbsp;</p><div style=\"text-align: center\"><a href = \"https://lincoln.com/support/lincoln-way-app/lincoln-access-rewards/collection/\" class=\"lincoln\" style=\"font-family:fontDefault;font-size: 40pt;\">SEE OUR COLLECTION</a></div><h3>For additional program information, please visit <a href=\"https://lincoln.com/support/lincoln-way-app/lincoln-access-rewards/\">LincolnAccessRewards.com</a> or contact a Lincoln Concierge through the Lincoln Way App. See participating U.S. Dealerships for details.</h3><h3>&nbsp;</h3><h3>Points are not redeemable for cash, check or credit. See the <a href=\"https://lincoln.com/support/lincoln-way-app/lincoln-access-rewards/faqs/\">Lincoln_Access_Rewards_Program_FAQs</a> for information regarding expiration, redemption, forfeiture and other limitations on Lincoln Access Rewards Points.</h3><h3>&nbsp;</h3></div></span></body></html>",
+	"isRead" : true,
+	"isDeleted" : true,
+	"isHighlighted" : true,
+	"vin" : "",
+	"notificationMessageType" : "EXTERNAL_NOTIFICATION_REQUEST",
+	"publisherType" : "NONE",
+	"publisher" : null,
+	"audienceGroupID" : null,
+	"externalMessageType" : 20001,
+	"metadata" : "{\"DeliveryId\":\"1004767171|USA\",\"PegaInteractionId\":\"\"}",
+	"notificationPriority" : "NORMAL",
+	"notificationPriorityCode" : 1,
+	"contentType" : "HTML",
+	"appID" : null,
+	"appGroupIDs" : [
+		"LincolnAppGroup"
+	],
+	"tag" : null,
+	"isActionRequired" : false,
+	"actionType" : "NONE",
+	"actionTakenBy" : null,
+	"actionTakenDate" : null,
+	"providerType" : "Marketing Campaigns",
+	"providerID" : "ICICMNA",
+	"communicationMessageType" : "INBOX",
+	"providerAppId" : "76C5EAEB-0287-4976-8C75-1E55664EF3CB"
+}

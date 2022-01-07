@@ -1,0 +1,50 @@
+{
+	"_id": {
+        "$integer": {
+            "min": 1000000000,
+            "max": 9999999999
+        }
+    },
+	"toUniqueAuthUserID" : "$guid",
+	"expirationDate": {
+        "$date": {
+            "min": "2021-11-08T23:59:59.999Z",
+            "max": "2022-12-07T23:59:59.999Z"
+        }
+    },
+	"createdBy" : "SYSTEM",
+	"createdDate" : {
+		"$date" : "$now"
+	},
+	"lastModifiedBy" : "SYSTEM",
+	"lastModifiedDate" : {
+		"$date" : "$now"
+	},
+	"subject" : "Doing what we can, where we can.",
+	"body" : "With the spread of the COVID-19 virus, Lincoln is adjusting to an ever-changing world so you can continue on your way. We hope these experiences help give you peace of mind, and we appreciate your business. Doing what we can, where we can. That's the Lincoln Way™.LINCOLN PICKUP &amp; DELIVERY™ ENHANCEMENTSWith an abundance of caution, we have implemented enhanced vehicle cleaning measures in an attempt to reduce germs. We have expanded the areas of both the loaner and your vehicle that are cleaned during your Lincoln Pickup and Delivery experience.*ROADSIDE ASSISTANCEWhen you have to make a trip, rest assured knowing that Lincoln Roadside Assistance* is here for you 24/7 via the Lincoln Way app.FINANCIAL ASSISTANCEFor a limited time, Lincoln Automotive Financial Services is allowing customers to defer their first payment up to 120 days when purchasing a new Lincoln.**Existing Lincoln owners in the U.S. affected by COVID-19 who purchased or are leasing a Lincoln vehicle are encouraged to contact Lincoln Automotive Financial Services to discuss options if they are having payment difficulty.*Complimentary Lincoln Pickup &amp; Delivery service is available for all 2017 model-year and newer Lincoln vehicles with the 4-year/50,000-mile New Vehicle Limited Warranty. Owners of 2016 and prior model-year vehicles and other vehicles not covered by the New Vehicle Limited Warranty may contact their preferred dealer for related cost and other important details. Mileage limitations may apply.*Nontransferable. See dealer for complete details. Lincoln reserves the right to change program details at any time without obligations.**Available on 2019/2020 model-year Lincoln vehicles. LAFS 120-Day Deferred Payment APR Financing (PMG #20569) is available to qualified buyers who finance through Lincoln Automotive Financial Services. Not all buyers will qualify for Lincoln Automotive Financial Services financing. For finance rates other than 0 percent, interest accrues during the deferred payment period. Payment deferrals not available in Pennsylvania, unless 0% APR. For all offers, take new retail delivery from authorized Lincoln Dealer’s stock by 3/31/20. See dealer for eligibility and complete details. Remote purchase available at participating dealers.",
+	"formattedBody" : "<!DOCTYPE html><header><style>html {font-family: Arial;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}h1 {max-width: 100%;font-size: 250%;font-family: Arial;margin: 0;padding: 25;}h3{font-size: 75%;margin:0;padding-left: 30px;}p{font-size: 150%;margin:0;padding-left: 30px;}li{font-size: 150%;margin:0;padding-left: 30px;}img {border: 0;max-width: 100%;max-height: 100%;padding:0px;}#blueContainer{margin: 0;padding-bottom: 0;overflow: visible; background-color: #cd4b01;width: 100%;height: 5%;}#serviceDueTitle{background-color: blue;overflow: hidden;width: 100%;height: 30pt;margin-top: 10px;line-height:15px;}#serviceDueContent{padding-top:100px;padding-bottom:125px;}#serviceAlertTitle{height: 8%;width: 95%;background-color: blue);padding-top: 25px;padding-right: 0px;padding-bottom: 0px;padding-left: 30px;margin-bottom: 0;}h2{ color: rgb(51,51,51);padding: 25px;}h3{ color: rgb(51,51,51);padding: 25px;}h5{ color: rgb(51,51,51);padding: 25px;}p{ color: rgb(51,51,51);}button{ background-color: #cd4b01;color: white;height: 100px;width: 850px;text-align: center;font-size: 50pt;border-radius: 15px;border: none;}body{margin: 0px;padding: 0px;font-size: 20pt;}.lincoln{border-radius: 8px;background-clip: padding-box;display: inline-block;margin-bottom: 20px;padding: 15px 35px; text-align:center;background-color: #cd4b01;border: none;color: #fff;text-decoration: none;font-size: 40pt;width: 600pt;}</style><script src=\"https://assets.adobedtm.com/launch-EN8fa1314f8c344e5eb78699bd6fdaa212-development.min.js\" async></script><script>function buttonMetrics(){var clickedURL=this.getAttribute(\"href\");console.log(\"clickedURL \"+clickedURL);var msgView=\"message center\";digitaldata={page:{client:\"ford\"},onclick:{onclick:msgView+\":a:click\",onclickLinkName:\"fp:\"+msgView+\":cta\",url:clickedURL}};var event=new CustomEvent(\"bb-trade-in-start\");document.querySelector(\"body\").dispatchEvent(event),_satellite.notify('custom event \"bb-trade-in-start\" fired on body',1)}var buttons=document.querySelectorAll(\"a\"),buttonArray=Array.from(buttons);buttonArray.forEach(a=>a.addEventListener(\"click\",buttonMetrics));</script></header><div><title>Doing what we can, where we can.</title><br><div id=\"serviceDueContent\"><img src=\"https://www.fordpasslb.ford.com/content/dam/ici/generated-images/messaging/lincolnway_2_0/us/en/COVID_image.png\"></div><body><div style=\"padding-left:30px;\"><p><p>With the spread of the COVID-19 virus, Lincoln is adjusting to an ever-changing world so you can continue on your way. We hope these experiences help give you peace of mind, and we appreciate your business. Doing what we can, where we can. That's the Lincoln Way™.</p><br><p><b>LINCOLN PICKUP & DELIVERY™ ENHANCEMENTS</b></p><br><p>With an abundance of caution, we have implemented enhanced vehicle cleaning measures in an attempt to reduce germs. We have expanded the areas of both the loaner and your vehicle that are cleaned during your Lincoln Pickup and Delivery experience.*</p><br><p><b>ROADSIDE ASSISTANCE</b></p><br><p>When you have to make a trip, rest assured knowing that Lincoln Roadside Assistance* is here for you 24/7 via the Lincoln Way app.</p><br><p><b>FINANCIAL ASSISTANCE</b></p><br><p>For a limited time, Lincoln Automotive Financial Services is allowing customers to defer their first payment up to 120 days when purchasing a new Lincoln.**</p><br><p>Existing Lincoln owners in the U.S. affected by COVID-19 who purchased or are leasing a Lincoln vehicle are encouraged to contact Lincoln Automotive Financial Services to discuss options if they are having payment difficulty.</p><br><h3>*Complimentary Lincoln Pickup & Delivery service is available for all 2017 model-year and newer Lincoln vehicles with the 4-year/50,000-mile New Vehicle Limited Warranty. Owners of 2016 and prior model-year vehicles and other vehicles not covered by the New Vehicle Limited Warranty may contact their preferred dealer for related cost and other important details. Mileage limitations may apply.*Nontransferable. See dealer for complete details. Lincoln reserves the right to change program details at any time without obligations.**Available on 2019/2020 model-year Lincoln vehicles. LAFS 120-Day Deferred Payment APR Financing (PMG #20569) is available to qualified buyers who finance through Lincoln Automotive Financial Services. Not all buyers will qualify for Lincoln Automotive Financial Services financing. For finance rates other than 0 percent, interest accrues during the deferred payment period. Payment deferrals not available in Pennsylvania, unless 0% APR. For all offers, take new retail delivery from authorized Lincoln Dealer’s stock by 3/31/20. See dealer for eligibility and complete details. Remote purchase available at participating dealers.<br><br></h3><br></p><div style=\"text-align: center\"><a href=\"https://owner.lincoln.com/here-for-you.html\" class=\"lincoln\">LEARN MORE</a><br><br></b></div></div></body></html>",
+	"isRead" : true,
+	"isDeleted" : true,
+	"isHighlighted" : true,
+	"vin" : "",
+	"notificationMessageType" : "EXTERNAL_NOTIFICATION_REQUEST",
+	"publisherType" : "NONE",
+	"publisher" : null,
+	"audienceGroupID" : null,
+	"externalMessageType" : 20001,
+	"metadata" : "{\"DeliveryId\":\"-1735244444|USA\",\"PegaInteractionId\":\"\"}",
+	"notificationPriority" : "NORMAL",
+	"notificationPriorityCode" : 1,
+	"contentType" : "HTML",
+	"appID" : null,
+	"appGroupIDs" : [
+		"LincolnAppGroup"
+	],
+	"tag" : null,
+	"isActionRequired" : false,
+	"actionType" : "NONE",
+	"actionTakenBy" : null,
+	"actionTakenDate" : null,
+	"providerType" : null,
+	"providerID" : null
+}
